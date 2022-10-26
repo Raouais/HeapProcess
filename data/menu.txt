@@ -1,0 +1,9 @@
+                +--------------------------+
+                |    Un tas de Processus   |
+                +--------------------------+
+                |       Afficher  -> 1     |
+                |       Ajouter   -> 2     |
+                |       Supprimer -> 3     |
+                |       Quitter   -> 4     |
+                +--------------------------+
+                    Entrez votre choix:

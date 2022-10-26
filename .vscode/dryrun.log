@@ -1,0 +1,10 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'z:/StructureDonneesAlgo/AlvesGustavoTravailAout/src'
+gcc     -c -o main.o main.c
+gcc     -c -o init/init.o init/init.c
+gcc     -c -o heap/heap.o heap/heap.c
+gcc     -c -o utils/functions.o utils/functions.c
+echo Compilation: executable sera myheap
+gcc   main.o  init/init.o  heap/heap.o  utils/functions.o  -lm -o myheap
+make: Leaving directory 'z:/StructureDonneesAlgo/AlvesGustavoTravailAout/src'
+ 

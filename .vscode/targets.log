@@ -1,0 +1,339 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Aug 27 01:08:14 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'Makefile', line 8)
+OBJ = $(patsubst %.c, %.o, $(SRC))
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 7)
+SRC = $(wildcard *.c init/*.c heap/*.c menu/*.c utils/*.c)
+# environment
+_MSYS2_BASH = C:\tools\msys64\usr\bin\bash.exe
+# environment
+USERPROFILE = C:\Users\guga
+# environment
+LOCALAPPDATA = C:\Users\guga\AppData\Local
+# environment
+VSCODE_CWD = Z:\StructureDonneesAlgo\AlvesGustavoTravailAout
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_26684_HNOTNONHVYDWTQTI
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\guga\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\guga\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+CONFIGSETROOT = C:\WINDOWS\ConfigSetRoot
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\guga\OneDrive
+# makefile
+CURDIR := z:/StructureDonneesAlgo/AlvesGustavoTravailAout/src
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+PT8HOME = D:\Downloads\PacketTracer\Cisco Packet Tracer 8.0
+# environment
+VSCODE_PID = 26684
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{"*":"fr"},"_languagePackId":"8a64477f85858ca31d1daacec93dba94.fr","_translationsConfigFile":"C:\\Users\\guga\\AppData\\Roaming\\Code\\clp\\8a64477f85858ca31d1daacec93dba94.fr\\tcf.json","_cacheRoot":"C:\\Users\\guga\\AppData\\Roaming\\Code\\clp\\8a64477f85858ca31d1daacec93dba94.fr","_resolvedLanguagePackCoreLocation":"C:\\Users\\guga\\AppData\\Roaming\\Code\\clp\\8a64477f85858ca31d1daacec93dba94.fr\\e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"C:\\Users\\guga\\AppData\\Roaming\\Code\\clp\\8a64477f85858ca31d1daacec93dba94.fr\\corrupted.info","_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\guga\OneDrive
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\guga
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\xampp\php;D:\Downloads\Composer;C:\ProgramData\chocolatey\bin;C:\TDM-GCC-64\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\guga\AppData\Local\Microsoft\WindowsApps;C:\Users\guga\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\guga\AppData\Roaming\npm;C:\Users\guga\AppData\Roaming\Composer\vendor\bin;C:\Users\guga\AppData\Local\GitHubDesktop\bin;C:\Users\guga\AppData\Roaming\cabal\bin;C:\tools\ghc-9.0.1\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\guga\AppData\Local\Programs\mongosh\;C:\Program Files\OpenSSL-Win64\bin;C:\Users\guga\.dotnet\tools
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = MSI
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+_MSYS2_PREFIX = x86_64
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 5)
+LDLIBS = -lm
+# environment
+OPENSSL_CONF = C:\Program Files\OpenSSL-Win64\bin\openssl.cfg
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132863807441084160
+# environment
+QT_DEVICE_PIXEL_RATIO = auto
+# environment
+LOGONSERVER = \\MSI
+# environment
+USERNAME = guga
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 4)
+PROG = myheap
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = MSI
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile (from 'Makefile', line 3)
+CDFLAGS = -g -Wall -Werror -Wextra -Wwrite-strings -Wshadow -std=c99
+# makefile
+.DEFAULT_GOAL := default
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = MSI
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\guga\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\guga\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\386698dc1185880c3c9337d360e35940-1.70.2-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 9e0a
+# makefile (from 'Makefile', line 2)
+CC = gcc 
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# variable set hash-table stats:
+# Load=106/1024=10%, Rehash=0, Collisions=11/137=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# init (key z:/StructureDonneesAlgo/AlvesGustavoTravailAout/src/init, mtime 1661550625): 4 files, no impossibilities.
+# heap (key z:/StructureDonneesAlgo/AlvesGustavoTravailAout/src/heap, mtime 1661550626): 4 files, no impossibilities.
+# utils (key z:/StructureDonneesAlgo/AlvesGustavoTravailAout/src/utils, mtime 1661550626): 4 files, no impossibilities.
+# . (key z:/StructureDonneesAlgo/AlvesGustavoTravailAout/src, mtime 1661555290): 11 files, no impossibilities.
+# structures (key z:/StructureDonneesAlgo/AlvesGustavoTravailAout/src/structures, mtime 1661550626): No files, no impossibilities so far.
+# menu: could not be stat'd.
+
+# 23 files, no impossibilities in 6 directories.
+
+# Implicit Rules
+
+%.o: %.c %.h structures/%.h
+
+utils/%.o: utils/%.c utils/%.h
+
+init/%.o: init/%.c init/%.h
+
+heap/%.o: heap/%.c heap/%.h
+
+# 4 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+utils/functions.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+default: myheap
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-26 20:43:16
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+init/init.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	@echo 'suppressions fichiers .o'
+	@rm -f $(OBJ)
+
+myheap: main.o init/init.o heap/heap.o utils/functions.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 13):
+	@echo Compilation: executable sera $(PROG)
+	@$(CC) $(OBJ) $(LDFLAGS) $(LDLIBS) -o $(PROG)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+heap/heap.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=1/27=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 41 / storage = 329 B / avg = 8 B
+# current buf: size = 8174 B / used = 329 B / count = 41 / avg = 8 B
+
+# strcache performance: lookups = 59 / hit rate = 30%
+# hash-table stats:
+# Load=41/8192=1%, Rehash=0, Collisions=0/59=0%
+# Finished Make data base on Sat Aug 27 01:08:14 2022
+
+ 
